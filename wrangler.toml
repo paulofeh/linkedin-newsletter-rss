@@ -5,3 +5,7 @@ workers_dev = true
 node_compat = true
 
 route = { pattern = "linkedinrss.cns.me/*", zone_name = "cns.me" }
+
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
